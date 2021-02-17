@@ -1,1 +1,1 @@
-# Coach App
+# Groups Project
