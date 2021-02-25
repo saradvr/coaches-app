@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 
 class loginForm extends React.Component {
@@ -11,7 +11,8 @@ class loginForm extends React.Component {
       <form>
           <p>Sign in</p>
           <hr/>
-          <input/>
+          <input type="text"/>
+          <input type="password"/>
       </form>
     )
   }
@@ -19,7 +20,7 @@ class loginForm extends React.Component {
 
 function App() {
   return (
-    
+    <loginForm/>
   )
 }
 
