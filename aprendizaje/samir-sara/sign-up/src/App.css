@@ -1,13 +1,5 @@
-section{
-  border: 5px solid red;
-}
-
-article{
-  border: 2px solid blue;
-}
-
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {

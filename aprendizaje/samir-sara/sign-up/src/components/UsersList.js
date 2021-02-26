@@ -3,6 +3,7 @@ import { User } from "./User"
 export function UsersList ({ users }) {
     return (
         <section>
+            export const data = &#91;<br />
             {!!users && users.length > 0 && users.map(({ 
                 _id,
                 name,
@@ -26,6 +27,7 @@ export function UsersList ({ users }) {
                  )
                 }) 
             }
+            &#93;
         </section>
     )
 }
